@@ -20,3 +20,6 @@ Link to video conference: https://meet.google.com/bxo-ffsm-qfn
 - Angular https://angular.io/
 - React https://reactjs.org/
 - Vue https://vuejs.org/
+
+## Utils
+- JSON editor online https://jsoneditoronline.org
