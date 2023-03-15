@@ -12,6 +12,7 @@ Link to video conference: https://meet.google.com/bxo-ffsm-qfn
 ## Code editors
 - Code Sandbox Online Editor https://codesandbox.io/
 - Visual Studio Code Offline Editor https://code.visualstudio.com/
+- NodeJS https://nodejs.org/en/
 
 ## Code version control
 - Git https://git-scm.com/
