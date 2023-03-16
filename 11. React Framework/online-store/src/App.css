@@ -1,0 +1,50 @@
+header{
+  height: 10em;
+  background-color: blueviolet;
+  text-align: center;
+  font-size: 23px;
+  color: white;
+}
+
+nav{
+  display: flex;
+
+}
+nav a{
+  display: block;
+  border: 1px solid blue;
+  border-radius: 2px;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#page-content{
+  display: grid;
+  grid-template-columns: 20em auto;
+  padding: 1em;
+}
+
+#page-content aside{
+  border: 1px solid gray;
+}
+
+
+.filter-element label{
+  display: block;
+}
+
+#page-content section{
+  border: 1px solid gray;
+}
+
+
+
+
+footer{
+  height: 10em;
+  background-color:darkslateblue;
+  text-align: center;
+  font-size: 23px;
+  color: white;
+}
