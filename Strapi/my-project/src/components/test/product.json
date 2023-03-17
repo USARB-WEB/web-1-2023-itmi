@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_test_products",
+  "info": {
+    "displayName": "Product",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "price": {
+      "type": "decimal"
+    },
+    "uuid": {
+      "type": "integer"
+    }
+  }
+}

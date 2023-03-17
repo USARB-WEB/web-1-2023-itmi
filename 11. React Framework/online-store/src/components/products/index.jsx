@@ -1,9 +1,9 @@
 import ProductsFilters from "./filters";
 import ProductsList from "./List";
 
-export default function Products(){
+export default function Products({items}){
     return <>
         <ProductsFilters></ProductsFilters>
-        <ProductsList></ProductsList>
+        <ProductsList items={items}></ProductsList>
     </>
 }

@@ -22,5 +22,12 @@ Link to video conference: https://meet.google.com/bxo-ffsm-qfn
 - React https://reactjs.org/
 - Vue https://vuejs.org/
 
+# Backend tools
+- https://github.com/typicode/json-server
+- https://strapi.io/
+- https://github.com/nvm-sh/nvm/blob/master/README.md
+- https://www.postman.com/
+- https://www.npmjs.com/package/axios
+
 ## Utils
 - JSON editor online https://jsoneditoronline.org
