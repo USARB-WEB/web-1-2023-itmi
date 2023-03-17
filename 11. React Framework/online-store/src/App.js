@@ -1,20 +1,23 @@
 import logo from './logo.svg';
 import './App.css';
-import Header from './components/template/Header';
-import Nav from './components/template/Nav';
-import Products from './components/products';
-import Footer from './components/template/Footer';
+
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+import IndexPage from './pages';
+import ProductsPage from './pages/products';
+import Layout from './components/template/Layout';
 
 function App() {
   return (
-    <div className="App">
-      <Header></Header>
-      <Nav></Nav>
-      <main id="page-content">
-        <Products></Products>
-      </main>
-      <Footer></Footer>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<Layout/>}>
+          <Route index element={<IndexPage/>}/>
+          <Route path='products' element={<ProductsPage/>}/>
+        </Route>
+        
+      </Routes>
+    </BrowserRouter>
   );
 }
 
