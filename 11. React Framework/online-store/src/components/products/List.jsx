@@ -7,6 +7,7 @@ export default function ProductsList(){
     const productsSeeder = [];
     for (let index = 1; index <= 50; index++) {
         productsSeeder.push({
+            id: index,
             name: `Product ${index}`,
             description: `This is a Product ${index} description. Here we can see short information about the product.`,
             price: index
@@ -18,7 +19,7 @@ export default function ProductsList(){
 
     return <section>
         {products.map(product => 
-            <ProductItem product={product}></ProductItem>
+            <ProductItem product={product} key={product.id}></ProductItem>
         )}
     
   </section>

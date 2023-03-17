@@ -5,6 +5,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import IndexPage from './pages';
 import ProductsPage from './pages/products';
+import ProductDetailsPage from './pages/product-details';
 import Layout from './components/template/Layout';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <Route path='/' element={<Layout/>}>
           <Route index element={<IndexPage/>}/>
           <Route path='products' element={<ProductsPage/>}/>
+          <Route path='products/:id' element={<ProductDetailsPage/>}/>
         </Route>
         
       </Routes>
