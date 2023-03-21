@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react"
+import { Link } from "react-router-dom";
 import ProductItem from './Item'
 
 export default function ProductsList({items}){
@@ -9,6 +10,9 @@ export default function ProductsList({items}){
     }, [])
 
     return <section>
+        <div>
+            <Link to={'/products/create'}><button>Create</button></Link>
+        </div>
         {products && products.map(product => 
             <ProductItem product={product} key={product.id}></ProductItem>
         )}

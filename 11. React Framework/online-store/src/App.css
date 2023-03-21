@@ -19,13 +19,13 @@ nav a{
   text-transform: uppercase;
 }
 
-#page-content{
+.products-list{
   display: grid;
   grid-template-columns: 20em auto;
   padding: 1em;
 }
 
-#page-content aside{
+.products-list aside{
   border: 1px solid gray;
 }
 
@@ -47,4 +47,10 @@ footer{
   text-align: center;
   font-size: 23px;
   color: white;
+}
+
+.product-create-form{
+
+  margin: 0 auto;
+  width: 20em;
 }

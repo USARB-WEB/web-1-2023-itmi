@@ -37,9 +37,9 @@ export default function ProductsPage(){
     
 
     return (
-       <>
+       <div className={'products-list'}>
         {products.length > 0 && <Products items={products}></Products>}
         {products.length <= 0 && <div>No data</div>}
-       </>
+       </div>
     )
 }
